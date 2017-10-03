@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" >
+<parameter name="email" value="dfqfdqyfd@gmail.com" />
+<parameter name="Password" value="werwerwqer" />
+<test name="testGmail">
+<parameter name="email" value="abc@gmail.com" />
+<parameter name="Password" value="abcabacr" />
+<parameter name="email" value="efg@gmail.com" />
+<parameter name="Password" value="efefefer" />
+<classes>
+<class name="Test_App.Parameterization_Gmail">
+</class>
+</classes>
+</test>
+</suite>
