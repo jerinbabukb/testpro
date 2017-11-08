@@ -33,5 +33,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Asus/Downloads/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Asus/Downloads/htmlunit-driver-2.27-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Asus/Downloads/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

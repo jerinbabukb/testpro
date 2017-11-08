@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.screenshots.ListenerTest"/>
+  </listeners>
+  <test name="Test(failed)">
     <classes>
-      <class name="pageobjectmodel.POMTest">
+      <class name="com.screenshots.TestCaptureScreenshot">
         <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
           <include name="f"/>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
         </methods>
-      </class> <!-- pageobjectmodel.POMTest -->
+      </class> <!-- com.screenshots.TestCaptureScreenshot -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
